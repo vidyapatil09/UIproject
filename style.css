@@ -1,0 +1,144 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width:80%;
+    min-height: 100px;
+    margin:auto;
+    border: 2px solid black;
+}
+.main-header-div
+{
+    width: 100%;
+    height:60px;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: block;
+}  
+.main-header-div .logo{
+    width: 30%;
+    height: 60px;
+    background-color: black;
+    margin-right: 10px;
+    float: left;
+    border-color: brown;
+    border-width: 20px;
+}
+.logo h1{
+    color: white;
+    padding: 10px;
+}
+.main-header-div .menu{
+    width:40%;
+    height: 60px;
+     background-color: black; 
+     margin-right: 10px;
+    float:left;
+    padding:15px;
+    border-width: 20px;
+    border-color: brown;
+}
+.menu a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu a:hover{
+    background-color: orange;
+    color: white;
+}
+.main-header-div .follow{
+    width:25%;
+    height: 60px;
+     background-color: black; */
+    padding-top: 10px;
+    float: right;
+    color:white;
+}
+.main-header-div .menu:nth-child(2)
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-header-div .logo:nth-child(1)
+{
+    margin-left: 15px;
+}
+.follow i{
+    color: white;
+    font-size: 1.5em;
+    padding:5px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.follow i:hover{
+    color:royalblue;
+}
+.slider{
+    width:100%;
+    height: 600px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.slider img{
+    width:100%;
+    height: 100%;
+    margin-top: 10px;
+}
+.main-prod-div{
+    width:100%;
+    min-height: 500px;
+}
+.clearfix::after{
+    content:"";
+    clear:both;
+    display: block;
+}
+.main-prod-div .box{
+    width: 32%;
+    min-height: 400px;
+    float:left;
+    box-shadow: rgba(red, green, blue, alpha);
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+.main-prod-div .box:nth-child(1){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-prod-div .box:nth-child(1)
+{
+    margin-left: 10px;
+}
+.main-prod-div .box:nth-child(3)
+{
+    margin-left: 10px;
+}
+.box img{
+    width:100%;
+    height:100%;
+}
+.footer
+{
+    width:100%;
+    height:60px;
+    background-color: black;
+}
+.footer h3{
+    color:white;
+    text-align: center;
+    line-height: 60px;
+}
+
